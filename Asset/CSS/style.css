@@ -1,0 +1,184 @@
+body{
+    background-image: url('https://image.freepik.com/free-photo/wooden-table-with-view-blurred-beverages-bar-backdrop_43029-507.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 100vh; */
+    width: 100%;
+}
+.fail{
+    text-align: center;
+    font-size: 15px;
+    color: red;
+    background-color: pink;
+    padding-right: 10px;
+    width: 300px;
+}
+.message{
+    color: #f5deb3;
+    font-family: cursive;
+    text-align: center;
+}
+
+.greeting{
+    font-size: 50px;
+
+}
+
+#lOut{
+    margin-right: 50px;
+}
+
+#sUp{
+    margin-right: 50px;
+}
+#sIn{
+    margin-right:10px;
+}
+.full{
+    height:100vh;
+} 
+.btn{
+    background-color: rgb(94, 52, 25);
+    color:#f5deb3;
+}
+.dropdown-menu{
+    padding: 7px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    height:80vh;
+}
+
+h1{
+    font-family: 'Playfair Display SC', serif;
+    color:#f5deb3;
+    font-size: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verified{
+    height: 80%;
+}
+
+.logo{
+    width: 100%;
+}
+
+.search{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.searchpage{
+    width: 100%;
+    height: 10vh;
+    display:flex;
+    justify-content: center;
+
+}
+.cardBody{
+    width: 100%;
+    margin: auto;
+    color:  rgba(150, 115, 92, 0.849);
+}
+
+footer{
+    height: 10vh;
+}
+
+/* start of css for text verification card */
+
+.verifyHearder{
+    font-size: 60px; 
+}
+.verify{
+    font-size: 35px;
+    color: #bb8218;
+}
+
+.verifyCard{
+    font-family: 'Playfair Display SC', serif;
+    background-color: #f5deb3;
+}
+
+.verifyHearder, .verifyFooter, .copyright{
+    font-family: 'Playfair Display SC', serif;
+    background-color:  #bb8218;   
+    color:#f5deb3;
+}
+
+.over21, .under21{
+    color: #f5deb3;
+}
+
+.over21:hover, .under21:hover, .register:hover, .maybeLater:hover{
+color: #f5deb3;
+}
+/* end of css for text verification card */
+
+/* start of css for signup card */
+.signUpForm{
+    background-color: #f5deb3;
+}
+
+.formField, .formField2  {
+    color: #bb8218;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.register, .maybeLater{
+    background-color: rgb(94, 52, 25);
+    color: #f5deb3;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.headerBtnContainer{
+    padding: 10px;
+}
+
+.headerBtnContainer2{
+    padding: 10px;
+}
+/* end of css signup card */
+
+/* Javascript*/
+
+#map {
+    z-index:1;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    top:50px;
+    position:-webkit-sticky!important;
+    position:sticky!important;  
+} 
+
+.fail {
+    right: 0;
+    position: absolute;
+}
+.content{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 768px) { 
+#d{
+    height:400px;
+    
+}}
+@media only screen and (min-width: 768px) { 
+#d{
+    height:50vh;
+}}
